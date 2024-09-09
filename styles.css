@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 160px; /* Adjust the size as needed */
+    margin-right: 15px; /* Space between the logo and the title */
+}
+
+h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+
+#chatbox {
+    height: 300px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#userInput {
+    width: 70%;
+    padding: 5px;
+}
+
+#sendButton, #toggleSpeechButton {
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+}
+
+footer a {
+    color: #007bff; /* Colore blu per il link */
+    text-decoration: none; /* Rimuove la sottolineatura dal link */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Sottolinea il link al passaggio del mouse */
+}
